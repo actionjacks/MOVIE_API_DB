@@ -1,4 +1,4 @@
-const API_KEY = "9e91c0d6f716eee9495be322afaf3a2a";
+const API_KEY = <my API key check https://www.themoviedb.org/settings/api>;
 
 export default {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
