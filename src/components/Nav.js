@@ -11,15 +11,29 @@ function Nav({ setSelectedOption }) {
       <h2 onClick={() => setSelectedOption(requests.fetchTopRated)}>
         najwyzej oceniane
       </h2>
-      <h2>akcja</h2>
-      <h2>komedja</h2>
-      <h2>horror</h2>
-      <h2>romans</h2>
-      <h2>zagadka</h2>
-      <h2>sajensfikszon</h2>
-      <h2>wester</h2>
-      <h2>bajki</h2>
-      <h2>filmy</h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchActionMovies)}>
+        akcja
+      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchComedyMovis)}>
+        komedja
+      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchHorrorMovies)}>
+        horror
+      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchRomanceMovies)}>
+        romans
+      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchMystery)}>zagadka</h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchSciFi)}>
+        science fiction
+      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchWester)}>wester</h2>
+      <h2
+        onClick={() => setSelectedOption(requests.fetchTfetchAnimationopRated)}
+      >
+        bajki
+      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchTV)}>seriale</h2>
     </div>
   );
 }

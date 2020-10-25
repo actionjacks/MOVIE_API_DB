@@ -29,12 +29,12 @@
   width: 100px;
 }
 
-.header__icon>.MuiSvgIcon-root {
+.header__icon > .MuiSvgIcon-root {
   margin-left: auto;
   margin-right: auto;
 }
 
-.header__icon>p {
+.header__icon > p {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-left: auto;
@@ -43,7 +43,7 @@
   display: none;
 }
 
-.header__icon--active>p {
+.header__icon--active > p {
   display: inline-flex !important;
 }
 
@@ -51,7 +51,7 @@
   display: inline;
 }
 
-.header>img {
+.header > img {
   object-fit: contain;
   height: 70px;
 }

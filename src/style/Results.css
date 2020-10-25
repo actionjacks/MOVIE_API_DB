@@ -1,5 +1,6 @@
-.results>div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.results > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
 }

@@ -12,23 +12,23 @@ function Header() {
       <div className="header__icons">
         <div className="header__icon header__icon--active">
           <ArrowForwardIosIcon />
-          <p>bla</p>
+          <p>lorem</p>
         </div>
         <div className="header__icon">
           <ArrowLeftIcon />
-          <p>bla</p>
+          <p>lorem</p>
         </div>
         <div className="header__icon">
           <ArrowRightAltIcon />
-          <p>bla</p>
+          <p>lorem</p>
         </div>
         <div className="header__icon">
           <ArrowRightIcon />
-          <p>bla</p>
+          <p>lorem</p>
         </div>
         <div className="header__icon">
           <ArrowUpwardIcon />
-          <p>bla</p>
+          <p>lorem</p>
         </div>
       </div>
       <img
