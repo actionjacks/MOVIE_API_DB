@@ -5,35 +5,33 @@ import requests from "../requests";
 function Nav({ setSelectedOption }) {
   return (
     <div className="nav">
-      <h2 onClick={() => setSelectedOption(requests.fetchTrending)}>
-        na topie
-      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchTrending)}>TOP</h2>
       <h2 onClick={() => setSelectedOption(requests.fetchTopRated)}>
-        najwyzej oceniane
+        Najwyżej oceniane
       </h2>
       <h2 onClick={() => setSelectedOption(requests.fetchActionMovies)}>
-        akcja
+        Akcja
       </h2>
       <h2 onClick={() => setSelectedOption(requests.fetchComedyMovis)}>
-        komedja
+        Komedia
       </h2>
       <h2 onClick={() => setSelectedOption(requests.fetchHorrorMovies)}>
-        horror
+        Horror
       </h2>
       <h2 onClick={() => setSelectedOption(requests.fetchRomanceMovies)}>
-        romans
+        Romans
       </h2>
-      <h2 onClick={() => setSelectedOption(requests.fetchMystery)}>zagadka</h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchMystery)}>Thriller</h2>
       <h2 onClick={() => setSelectedOption(requests.fetchSciFi)}>
-        science fiction
+        Science fiction
       </h2>
-      <h2 onClick={() => setSelectedOption(requests.fetchWester)}>wester</h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchWester)}>Western</h2>
       <h2
         onClick={() => setSelectedOption(requests.fetchTfetchAnimationopRated)}
       >
-        bajki
+        Bajki
       </h2>
-      <h2 onClick={() => setSelectedOption(requests.fetchTV)}>seriale</h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchTV)}>Seriale</h2>
     </div>
   );
 }
