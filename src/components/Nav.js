@@ -26,11 +26,7 @@ function Nav({ setSelectedOption }) {
         Science fiction
       </h2>
       <h2 onClick={() => setSelectedOption(requests.fetchWester)}>Western</h2>
-      <h2
-        onClick={() => setSelectedOption(requests.fetchTfetchAnimationopRated)}
-      >
-        Bajki
-      </h2>
+      <h2 onClick={() => setSelectedOption(requests.fetchAnimation)}>Bajki</h2>
       <h2 onClick={() => setSelectedOption(requests.fetchTV)}>Seriale</h2>
     </div>
   );
